@@ -3,6 +3,7 @@ import './App.css';
 import About from './page/About';
 import Contect from './page/Contect';
 import Footer from './page/Footer';
+import Header from './page/Header';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
     <About/>
     <Contect/>
     <Footer/>
+    <Header/>
     </>
   );
 }
