@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import About from './page/About';
 import Contect from './page/Contect';
+import Footer from './page/Footer';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
     </div>
     <About/>
     <Contect/>
+    <Footer/>
     </>
   );
 }
