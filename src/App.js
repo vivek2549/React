@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import About from './page/About';
+import Contect from './page/Contect';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       </header>
     </div>
     <About/>
+    <Contect/>
     </>
   );
 }
