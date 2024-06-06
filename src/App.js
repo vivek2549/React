@@ -6,6 +6,7 @@ import Footer from './page/Footer';
 import Header from './page/Header';
 import Home from './page/Home';
 import Search from './page/Search';
+import LatestNews from './page/LatestNews';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
     <Search/>
     <About/>
     <Contect/>
+    <LatestNews/>
     <Footer/>
     </>
   );

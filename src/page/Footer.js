@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Photo from './Photo'
 export default function Footer() {
   return (
     <>
@@ -88,36 +88,7 @@ export default function Footer() {
                         <div class="footer-item-4">
                             <h4 class="mb-4 text-white">Our Gallary</h4>
                             <div class="row g-2">
-                                <div class="col-4">
-                                    <div class="rounded overflow-hidden">
-                                        <img src="img/footer-1.jpg" class="img-zoomin img-fluid rounded w-100" alt=""/>
-                                    </div>
-                               </div>
-                               <div class="col-4">
-                                    <div class="rounded overflow-hidden">
-                                        <img src="img/footer-2.jpg" class="img-zoomin img-fluid rounded w-100" alt=""/>
-                                    </div>
-                               </div>
-                                <div class="col-4">
-                                    <div class="rounded overflow-hidden">
-                                        <img src="img/footer-3.jpg" class="img-zoomin img-fluid rounded w-100" alt=""/>
-                                    </div>
-                               </div>
-                                <div class="col-4">
-                                    <div class="rounded overflow-hidden">
-                                        <img src="img/footer-4.jpg" class="img-zoomin img-fluid rounded w-100" alt=""/>
-                                    </div>
-                               </div>
-                                <div class="col-4">
-                                    <div class="rounded overflow-hidden">
-                                        <img src="img/footer-5.jpg" class="img-zoomin img-fluid rounded w-100" alt=""/>
-                                    </div>
-                               </div>
-                               <div class="col-4">
-                                <div class="rounded overflow-hidden">
-                                    <img src="img/footer-6.jpg" class="img-zoomin img-fluid rounded w-100" alt=""/>
-                                </div>
-                           </div>
+                                <Photo/>  
                             </div>
                         </div>
                     </div>
